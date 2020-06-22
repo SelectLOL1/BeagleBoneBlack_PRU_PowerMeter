@@ -17,6 +17,10 @@ The Server Side keeps the RRD Files and evaluetes the string from the client and
 
 ## Imports
 
+[](https://pypi.org/project/rrdtool/)
+
+Besides Python3, this must be installed for the usage of the scripts.
+
 ```python
 #########################CLIENT#########################
 import time #Standard import
