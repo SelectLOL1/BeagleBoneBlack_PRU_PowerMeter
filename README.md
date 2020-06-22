@@ -5,6 +5,8 @@
 
 # Usage
 
+Only the files in the `allChannelSampling` folder will be needed for the final usage case. 
+
 ## Client Side
 
 The Client in this context is the BeagleBone. The BeagleBone is sampling, filtering and calculationg for every channel. In the end it will send a string containing the Channel number and its Value in Watts over a socket. (allChannelSampling/sevenChannelSampler.py for all channels)
