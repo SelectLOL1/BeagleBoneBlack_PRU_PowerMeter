@@ -30,7 +30,7 @@ class MyCoolClass:
         Samples = np.delete(Samples, len(Samples)-1)
         Wattsec =((np.sqrt(np.mean(np.square(Samples - FilteredValue)))) * gainOfClamp) * mainsVoltage
         Wattsec = Wattsec - ADCnoiseCorrectioninW
-        Wattsec = Wattsec * (((sampleCount * bufferCount) / (300 * 50 * len(channelSelect))))
+        #Wattsec = Wattsec * (((sampleCount * bufferCount) / (300 * 50 * len(channelSelect))))
         Wattsec = f'CH{channel}:'+(str(round(Wattsec, 2)))+':'
         return Wattsec
 
