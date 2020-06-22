@@ -40,7 +40,7 @@ import re #Regexp for filtering incoming data
 
 To visulize the data Matplotlib.pyplot can be used. Examples in /RRDGraphs/*
 
-## Visualization
+## Measurment Reports
 
 More details about the hardware side and measurment reports are under:
 
