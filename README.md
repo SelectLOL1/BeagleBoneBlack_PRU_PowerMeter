@@ -17,9 +17,10 @@ The Server Side keeps the RRD Files and evaluetes the string from the client and
 
 ## Imports
 
-[Rddtool](https://pypi.org/project/rrdtool/)
-
 Besides Python3, this must be installed for the usage of the scripts.
+
+[RRDtool](https://pypi.org/project/rrdtool/)
+
 
 ```python
 #########################CLIENT#########################
@@ -38,6 +39,12 @@ import re #Regexp for filtering incoming data
 ## Visualization
 
 To visulize the data Matplotlib.pyplot can be used. Examples in /RRDGraphs/*
+
+## Visualization
+
+More details about the hardware side and measurment reports are under:
+
+`/usr/srv-emme/samba-a/epc_share_sg/Development/PRE/02_Projects/Building_Power_Monitoring`
 
 ## License
 
