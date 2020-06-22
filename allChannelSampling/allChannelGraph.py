@@ -1,7 +1,6 @@
 import math
 import time
 import os
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdate
 import numpy.polynomial.polynomial as poly
