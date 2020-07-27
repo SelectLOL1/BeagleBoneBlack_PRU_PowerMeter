@@ -78,7 +78,7 @@ ax0.set_title(f'Time range: {StartTime}    -    {EndTime}')
 
 StartTime = time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime(epochStartTime))
 EndTime = time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime(epochEndTime))
-ax1.plot_date(timeseries,values, linestyle = '-', marker = '',label=f'Espros Photonics')
+ax1.plot_date(timeseries,values, linestyle = '-', marker = '',label=f'Label')
 ax1.set_ylabel('Watt')
 
 ax1.set_ylim(bottom = 0)
