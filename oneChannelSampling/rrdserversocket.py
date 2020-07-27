@@ -20,7 +20,7 @@ def mySocket():
             break
         rrdtool.update("powerCapturenew.rrd", rcvdData)
         rrdtool.graph("mypicreon.png",
-                      "--title",f"Espros Power Consumption = {rcvdData}",
+                      "--title",f"Power Consumption = {rcvdData}",
                       "--vertical-label", "Wattseconds",
                       "--start", "NOW-24h", "--end", "NOW",
                       "--color","BACK#007733AB",
