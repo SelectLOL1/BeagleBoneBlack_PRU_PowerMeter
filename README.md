@@ -1,11 +1,10 @@
-# Espros Power Consumption Visualization
-#### ![Logo](https://www.espros.com/wp-content/uploads/2016/11/epc_logo_250x125.jpg")
+# Power Consumption Visualization
 
-**Using a BeagleBoneBlack and Non-Invasive current calmps to monitor the power consumption of different parts of the Building.**
+**Using a BeagleBoneBlack and Non-Invasive current calmps to monitor the power consumption.**
 
 # Usage
 
-Only the files in the `allChannelSampling` folder will be needed for the final usage case. 
+Only the files in the `allChannelSampling` folder will be needed for the final usage case.
 
 ## Client Side
 
@@ -41,11 +40,7 @@ import re #Regexp for filtering incoming data
 To visulize the data Matplotlib.pyplot can be used. Examples in /RRDGraphs/*
 
 ## Measurment Reports
-
-More details about the hardware side and measurment reports are under:
-
-`/usr/srv-emme/samba-a/epc_share_sg/Development/PRE/02_Projects/Building_Power_Monitoring`
-
+--
 ## License
 
 [Terms](https://de-de.facebook.com/terms)
